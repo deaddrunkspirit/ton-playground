@@ -1,0 +1,19 @@
+{
+  "name": "wallet_master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "ton": "^13.9.0",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0",
+    "ts-node": "^10.9.2"
+  }
+}
