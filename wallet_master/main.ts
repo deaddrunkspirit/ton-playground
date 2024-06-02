@@ -11,8 +11,10 @@ async function main() {
    
     const endpoint = await getHttpEndpoint({ network: 'testnet' });
     const client = new TonClient({endpoint});
-    if (!await client.isContractDeployed(wallet.address))
+    if (!await client.isContractDeployed(wallet.address)) {
         console.log('not deployed!');
+    }
+    
     console.log('wallet is deployed');
 
     const balance = await client.getBalance(wallet.address);
