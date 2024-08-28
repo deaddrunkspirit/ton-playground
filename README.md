@@ -1,3 +1,3 @@
 # ton-playground
 
-a sample project to learn TON
+Sample project to learn TON
