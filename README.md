@@ -1,3 +1,3 @@
 # ton-playground
 
-Sample project to learn TON
+Sample project to learn TON blockchain.
